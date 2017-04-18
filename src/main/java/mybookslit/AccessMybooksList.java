@@ -32,7 +32,7 @@ public class AccessMybooksList {
             Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 
             // 3. create the query statement
-            String query = "SELECT * FROM booklist JOIN userbooklist ON userbooklist.user_id=booklist.fkuser WHERE user_id=?";
+            String query = "SELECT * FROM booklist JOIN usersbooklist ON usersbooklist.user_id=booklist.fkuser WHERE user_id=?";
 
             // 4. execute the query
             PreparedStatement st = conn.prepareStatement(query);
@@ -64,6 +64,8 @@ public class AccessMybooksList {
     }
 
     public void insertBook (String titleOfBook, int iduser){
+
+        System.out.println("here i am!!!");
 
         // 1. define connection parameters to db
         final String URL = "jdbc:postgresql://54.93.65.5:5432/5csongor";
@@ -100,6 +102,9 @@ public class AccessMybooksList {
         catch (ClassNotFoundException e){
             e.printStackTrace();
         }
+
+        System.out.println("got out of here!");
+
     }
 
 }

@@ -106,6 +106,8 @@ public class MyBookListServlet extends HttpServlet {
 
         String value = request.getParameter(VALUE_NEWBOOK);
 
+        System.out.println(" Hello!!!!!");
+
         MyListOfBooksMock myListobject = MyListOfBooksMock.getInstance();
         myListobject.printList();
         myListobject.addItem(value);
