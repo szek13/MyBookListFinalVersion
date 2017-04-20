@@ -1,0 +1,96 @@
+
+
+h1{
+    size: 225px;
+    font-family: Algerian;
+    text-align: center;
+    color: azure;
+    text-shadow: blueviolet 4px 4px;
+}
+
+h2 {
+    size: 200px;
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: lightcoral 2px 2px;
+    font-family: "Arial Rounded MT Bold";
+}
+
+#listOfBooks{
+    background-color: transparent;
+    padding: 15px;
+    margin-left: 20px;
+
+}
+
+.button1 {
+    border: none;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Bookman Old Style";
+    background-color: whitesmoke;
+    box-shadow: 0 10px 10px 0 lightskyblue;
+}
+
+.button1:hover{
+    background-color: lightgreen;
+    box-shadow: 0 10px 10px 0 rgba(223, 242, 56, 0.58);
+}
+
+.button2{
+    border: none;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Berlin Sans FB";
+    background-color: cornflowerblue;
+    box-shadow: 0 10px 10px 0 rgba(40, 177, 242, 0.58);
+
+}
+
+.button2:hover{
+    background-color: rgba(27, 242, 83, 0.58);
+    box-shadow: 0 10px 10px 0 rgba(134, 242, 153, 0.58);
+}
+
+.button3{
+    border: 2px black;
+    margin-left: 85px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Constantia;
+    background-color: cornflowerblue;
+    box-shadow: 0 10px 10px 0 rgba(40, 177, 242, 0.58);
+
+}
+
+.button3:hover{
+    background-color: rgba(27, 242, 83, 0.58);
+    box-shadow: 0 10px 10px 0 rgba(134, 242, 153, 0.58);
+}
+
+.button4{
+    border: 2px black;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Constantia;
+    background-color: cornflowerblue;
+    box-shadow: 0 10px 10px 0 rgba(40, 177, 242, 0.58);
+
+}
+
+.button4:hover {
+    background-color: rgba(27, 242, 83, 0.58);
+    box-shadow: 0 10px 10px 0 rgba(134, 242, 153, 0.58);
+}
