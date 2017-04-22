@@ -1,30 +1,35 @@
+body{
+    background-image: url("https://cdn.theculturetrip.com/wp-content/uploads/2016/04/4441409708_bd83c5b639_o.jpg")
+}
 
 
 h1{
     size: 225px;
     font-family: Algerian;
     text-align: center;
-    color: azure;
+    color: crimson;
     text-shadow: blueviolet 4px 4px;
 }
 
 h2 {
     size: 200px;
     text-align: center;
-    color: antiquewhite;
+    color: deepskyblue;
     text-shadow: lightcoral 2px 2px;
     font-family: "Arial Rounded MT Bold";
 }
 
 #listOfBooks{
-    background-color: transparent;
-    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
     margin-left: 20px;
-
+    margin-bottom: 10px;
 }
 
 .button1 {
     border: none;
+    border-radius: 5px;
     margin-left: 120px;
     margin-bottom: 15px;
     text-align: center;
@@ -61,6 +66,7 @@ h2 {
 
 .button3{
     border: 2px black;
+    border-radius: 5px;
     margin-left: 85px;
     margin-bottom: 15px;
     text-align: center;
@@ -79,6 +85,7 @@ h2 {
 
 .button4{
     border: 2px black;
+    border-radius: 5px;
     margin-left: 120px;
     margin-bottom: 15px;
     text-align: center;
@@ -94,3 +101,4 @@ h2 {
     background-color: rgba(27, 242, 83, 0.58);
     box-shadow: 0 10px 10px 0 rgba(134, 242, 153, 0.58);
 }
+
