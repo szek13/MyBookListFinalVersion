@@ -8,7 +8,7 @@ function listBooks(books) {
 
     for ( var i = 0; i < books.length; i++) {
         var book = books[i];
-        var booksHtml = '<li> + book.name + </li>'
+        var booksHtml = '<li>' + book.name + '</li>'
         listHtml += booksHtml;
     }
     list.innerHTML = listHtml;
